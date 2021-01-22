@@ -1,0 +1,25 @@
+.user {
+    padding: 1.5rem;
+    box-shadow: 5px 5px 10px 0 #333333;
+    margin-bottom: 0.5rem;
+    border-radius: 0.4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: rgb(47, 151, 151);
+    box-shadow: 2px 2px 2px 0 #333333;
+}
+
+.btn-danger {
+    background-color: rgb(240, 89, 89);
+    box-shadow: 2px 2px 2px 0 #333333;
+
+}
+
+.navbar {
+    background-color: rgb(189, 166, 137);
+    color: white;
+}
