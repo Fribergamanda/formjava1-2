@@ -17,18 +17,13 @@ const renderUsers = () => {
         <h3>${user.firstName} ${user.lastName}</h3>
         <small>${user.email}</small>
       </div>
-      <div class="buttons">
-        <button class="btn btn-primary">change</button>
-        <button class="btn btn-danger">delete</button>
-      </div>
     </div>
 `
-
     output.innerHTML += html
   })
 }
 
-const validateText = id => {
+const validateText = id => { //validera
   const input = document.querySelector('#'+id);
   const error = document.querySelector('#'+id+'-error');
 
@@ -45,7 +40,7 @@ const validateText = id => {
   }
 }
 
-const validateEmail = id => {
+const validateEmail = id => { //validera email
   const input = document.querySelector('#'+id);
   const error = document.querySelector('#'+id+'-error');
 
